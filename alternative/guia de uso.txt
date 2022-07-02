@@ -1,0 +1,6 @@
+presionar click derecho en el escritorio
+la opcion "abrir en un terminal"
+ejecutar estos comandos:
+cd ../Descargas
+sudo chmod +x wine.sh
+sudo ./wine.sh
