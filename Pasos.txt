@@ -1,0 +1,16 @@
+Pasos para una correcta instalacion:
+1_Con un click derecho en el escritorio abrimos una terminal
+
+2_Dijitamos el siguiente comando "cd .." y a continuacion "cd Descargas/"
+
+3_Nuevamente dijitamos el siguiente comando "cd huayra-wine-installer-main/"
+
+4_Y luego este otro "sudo chmod +x wine.sh"
+
+5_Ahora para abrir el archivo escribimos "sudo ./wine.sh"
+
+6_Aparecera un cartel en el que deberemos seleccionar windows 10
+
+7_Una vez echo esto deberemos reiniciar el equipo
+
+Fin de la instalacion. 
