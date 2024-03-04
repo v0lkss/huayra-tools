@@ -1,4 +1,5 @@
 #!/bin/sh
+user=$(grep -E '/bin/[^/]sh' /etc/passwd | grep -v '^root:' | awk -F: '{print $1}')
 cd /opt
 sudo pacman -S git
 sudo git clone https://aur.archlinux.org/yay-git.git
