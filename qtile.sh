@@ -15,7 +15,7 @@ if [[ ! $kitver =~ ^[Nn]$ ]]; then
     echo -n "Do you want use syltr1x kitty config (see in https://github.com/syltr1x/mythings)?[Y/n] >> "; read -r kicover
 fi
 echo -n "Do you want install powerlevel10k and ohmyzhs?[Y/n] >> "; read -r zshp10kver; zshp10kver=${zshp10kver:-Y}
-echo -n "Do you want install spictefiy?[Y/n] >> "; read -r spicever; spicever=${spicever:-Y}
+echo -n "Do you want install spicetefiy?[Y/n] >> "; read -r spicever; spicever=${spicever:-Y}
 if [[ ! $spicever =~ ^[Nn]$ ]]; then
     echo -n "Do you want use Nord scheme for Sleek Theme (https://github.com/spicetify/spicetify-themes)? [Y/n] >> "; read -r spitheme; spitheme=${spitheme:-Y}
 fi
