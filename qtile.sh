@@ -1,7 +1,7 @@
 #!/bin/sh
 user=$(grep -E '/bin/[^/]sh' /etc/passwd | grep -v '^root:' | awk -F: '{ print $1}')
-echo "ES: Este script esta probado en sistemas basados en debian como kali, parrot, ubuntu."
-echo "EN: This script works on debian based systems like kali, parrot, ubuntu, etc."
+echo "ES: Este script esta probado en sistemas basados en debian. Como kali, parrot, ubuntu."
+echo "EN: This script works on debian based systems. Like kali, parrot, ubuntu, etc."
 echo "ES: Instalara qtile (y dependencias)"
 echo "EN: This will install qtile (and dependencies)"
 
@@ -49,7 +49,6 @@ if [[ ! $spicever =~ ^[Nn]$ ]]; then
         spicetify config custom_apps lyrics-plus
         spicetify config extensions fullAppDisplay.js
         spicetify config extensions loopyLoop.js
-        git clone https://
 fi
 
 if [[ ! $zshp10kver =~ ^[Nn]$ ]]; then
